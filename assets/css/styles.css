@@ -35,10 +35,31 @@ body {margin: 0;}
 .menu-link:before {
 	content: "";
 	position: absolute;
+	left: 0;
+	width: 0;
+	height: 0;
+	border-top: 20px solid transparent;
+	border-left: 20px solid #fff;
+	border-bottom: 20px solid transparent;
+}
+
+.menu-link:after {
+	content: "";
+	position: absolute;
 	right: -1.053em;
 	width: 0;
 	height: 0;
 	border-top: 20px solid transparent;
 	border-bottom: 20px solid transparent;
 	border-left: 20px solid #444;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+	background-color: #f90;
+}
+
+.menu-link:hover:after,
+.menu-link:focus:after {
+	border-left-color: #f90;
 }
