@@ -1,0 +1,44 @@
+body {margin: 0;}
+
+.page {
+	width: 60em;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.menu {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.menu-item {
+	display: inline-block;
+	min-width: 9.375em;
+	min-height: 2.5em;
+	line-height: 2.5em;
+	margin-right: 3em;
+	background-color: #444;
+}
+
+.menu-item--last {margin-right: 0;}
+
+.menu-link {
+	position: relative;
+	display: block;
+	font-size: 1.2em;
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+}
+
+.menu-link:before {
+	content: "";
+	position: absolute;
+	right: -1.053em;
+	width: 0;
+	height: 0;
+	border-top: 20px solid transparent;
+	border-bottom: 20px solid transparent;
+	border-left: 20px solid #444;
+}
