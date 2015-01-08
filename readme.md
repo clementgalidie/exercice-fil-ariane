@@ -18,3 +18,11 @@ Principes abordés :
 | Opera                           | 26.0     | :white_check_mark: |
 | Safari                          | 5.1.7    | :white_check_mark: |
 | Internet Explorer               | 11       | :white_check_mark: |
+
+## Caractéristiques
+
+* Code *HTML* et *CSS* valides. 
+* Responsive.
+* Possibilité de naviguer uniquement au clavier.
+* Fonctionne sans JavaScript.
+* Aucune image.
