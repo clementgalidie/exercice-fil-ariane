@@ -63,3 +63,18 @@ body {margin: 0;}
 .menu-link:focus:after {
 	border-left-color: #f90;
 }
+
+/* Responsive version */
+/* 1000px */
+@media screen and (max-width: 62.5em) {
+	.page {
+		width: auto;
+		margin-right: 0;
+		margin-left: 0;
+	}
+}
+
+/* 414px */
+@media screen and (max-width: 25.875em) {
+	
+}
