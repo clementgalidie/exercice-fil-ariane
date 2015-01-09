@@ -78,8 +78,8 @@ body {margin: 0;}
 	.menu-item {margin-bottom: .625em;}
 }
 
-/* 414px */
-@media screen and (max-width: 25.875em) {
+/* 533px */
+@media screen and (max-width: 33.313em) {
 	.menu-item {
 		display: list-item;
 		min-width: 0;
